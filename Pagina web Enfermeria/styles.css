@@ -1,0 +1,290 @@
+
+/* style paciente*/
+
+.hidden {
+    display: none;
+}
+
+
+/*
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.form-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+*/
+
+/*paciente*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#seguimiento {
+    text-align: center;
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+/*termina paciente*/
+
+.hidden {
+    display: none;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #2c3e50;
+    padding: 10px;
+}
+.paciente-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+.login-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+/* style enfermero*/
+.enfermero-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+.login-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+.videos-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.video-item {
+    max-width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2c3e50;
+    padding: 10px;
+}
+
+/* style conocenos*/
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2c3e50;
+    padding: 10px;
+}
+.conocenos-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+.conocenos-title {
+    color: #333;
+}
+
+.conocenos-text {
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.contact-info-item {
+    text-align: center;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+        /*style index*/
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+          
+            
+    
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #3498db;
+            color: #fff;
+           
+           
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: #2c3e50;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color: #25d366;
+            color: #fff;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+
+
+        .fin-pagina {
+            background-color: #3498db; /* Color de fondo del área de final de página */
+            text-align: left;
+            padding: 10px;
+        }
+
+        .card:hover {
+            box-shadow: 0 0 15px #2c3e50; /* Ajusta los valores según tu preferencia */
+        }
+        
